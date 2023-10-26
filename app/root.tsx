@@ -8,8 +8,12 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+import tailwindStyles from './tailwind.css'
+import PlusJakartaSansVariable from '@fontsource-variable/plus-jakarta-sans/index.css'
 
 export const links: LinksFunction = () => [
+  { rel: 'stylesheet', href: tailwindStyles },
+  {rel: 'stylesheet', href: PlusJakartaSansVariable},
   ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
 ];
 
@@ -22,7 +26,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="dark">
         <Outlet />
         <ScrollRestoration />
         <Scripts />
