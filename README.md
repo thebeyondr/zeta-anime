@@ -15,8 +15,12 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd zeta-anime
 ```
+
+Get bun
+
+> Follow the steps [here](https://bun.sh/docs/installation) for your OS: `https://bun.sh/docs/installation`
 
 Install dependencies
 
