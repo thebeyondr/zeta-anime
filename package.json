@@ -1,7 +1,8 @@
 {
-  "name": "remix-anime",
+  "name": "zeta",
   "private": true,
   "sideEffects": false,
+  "description": "A test anime site made with bun and remix",
   "type": "module",
   "scripts": {
     "build": "remix build",

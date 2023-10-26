@@ -1,13 +1,35 @@
-# Welcome to Remix!
+# [-ζ-] zeta
 
-- [Remix Docs](https://remix.run/docs)
+![zeta logo](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Sigle_zeta.png/200px-Sigle_zeta.png)
+
+A test anime app to try [bun](https://bun.sh) and [Remix](https://remix.run)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  bun install
+```
 
 ## Development
 
 From your terminal:
 
 ```sh
-npm run dev
+  bun dev
 ```
 
 This starts your app in development mode, rebuilding assets on file changes.
@@ -17,13 +39,13 @@ This starts your app in development mode, rebuilding assets on file changes.
 First, build your app for production:
 
 ```sh
-npm run build
+  bun build
 ```
 
 Then run the app in production mode:
 
 ```sh
-npm start
+  bun start
 ```
 
 Now you'll need to pick a host to deploy it to.
